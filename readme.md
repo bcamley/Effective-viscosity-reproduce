@@ -1,6 +1,8 @@
 This code is provided to reproduce the paper "Motion of objects embedded in lipid bilayer membranes: advection and effective viscosity" by Brian Camley and Frank Brown.
 
-This code is hacked-together scientific code; it is not pretty, and could certainly be more efficient, but it serves to illustrate some of the detailed methods that cannot be captured within a paper and allow for easier reproduction of the results. We cannot guarantee that it performs as predicted if you try to change things without understanding them! In this sense, it is released in the spirit of the CRAPL license. 
+This code is hacked-together scientific code; it is not pretty, and could certainly be more efficient, but it serves to illustrate some of the detailed methods that cannot be captured within a paper and allow for easier reproduction of the results. We cannot guarantee that it performs as predicted if you try to change things without understanding them! In this sense, it is released in the spirit of the CRAPL license.
+
+(Some of the code requires the Struve functions of Ben Barrowes, which are included, see commoncode/struve_license.txt)
 
 This MATLAB code will require the folder "commoncode" to be present in the directory structure used here. Some of this code uses the Symbolic Math Toolbox.
 
